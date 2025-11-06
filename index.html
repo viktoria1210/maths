@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Математичний квіз</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎯 Ти все зможеш! Не бійся помилятись — кожна спроба робить тебе розумнішим.</h1>
+    </header>
+    <main>
+        <div id="start-screen" class="active">
+            <h1>Математичний квіз</h1>
+            <div class="back">
+                <button id="start-easy">Легкий</button>
+                <button id="start-average">Середній</button>
+                <button id="start-difficult">Важкий</button>
+                <button id="start-compare">Порівняння</button>
+            </div>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="top-bar">
+                <div id="timer">Час: 30</div>
+                <div id="score">Балів: 0</div>
+            </div>
+            <div id="question"></div>
+            <div id="answers" class="answers"></div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h2>Твій результат:</h2>
+            <p id="final-score"></p>
+            <button id="restart-btn">Почати знову</button>
+        </div>
+    </main>
+    <footer>
+        <h1>Зосередься, дихай спокійно й натискай «Почати» 💪</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
