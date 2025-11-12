@@ -1,5 +1,5 @@
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 60;
 let timer;
 let currentQuestion;
 let questionCount = 0;
@@ -122,7 +122,7 @@ function startQuiz(level) {
     quizScreen.classList.add('active');
     score = 0;
     questionCount = 0;
-    timeLeft = 30;
+    timeLeft = 60;
     updateScore();
     startTimer();
     loadNext(level);
